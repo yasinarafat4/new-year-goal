@@ -1,31 +1,62 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 /* navigation styles */
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(78, 175, 224);
-    padding: 40px;
-    color: beige;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(78, 175, 224);
+  padding: 60px;
+  color: beige;
+  margin-right: 200px;
+  margin-left: 200px;
 }
-nav ul{
-    display: flex;
+nav ul {
+  display: flex;
 }
-nav li{
-    list-style: none;
-    padding: 5px;
-    margin-left: 60px;
+nav li {
+  list-style: none;
+  padding: 5px;
+  margin-right: 120px;
 }
-.nav-title{
-    font-size: 30px;
+.nav-title {
+  font-size: 50px;
+  font-weight: 700;
+}
+.nav-items {
+  font-size: 25px;
+}
+.goal-color {
+  color: red;
+}
+
+/* banner section styles */
+.banner{
+    background: url(../images/banner/banner.png);
+    height: 100vh;
+    text-align: right;
+    padding-top: 210px;
+    padding-right: 180px;
+    background-repeat: no-repeat;
+    min-width: 100% 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.banner-title{
+    font-size: 60px;
     font-weight: 700;
 }
-.nav-items{
-    font-size: 20px;
-    padding-right: 16px;
+.banner-text{
+    font-size: 18px;
+    margin-top: 25px;
 }
-.goal-color{
-    color: red;
+.btn-primary{
+    margin-top: 40px;
+    background-color: orangered;
+    color: white;
+    padding: 20px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
 }
