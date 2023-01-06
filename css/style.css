@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* navigation styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(78, 175, 224);
+    padding: 40px;
+    color: beige;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 5px;
+    margin-left: 60px;
+}
+.nav-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.nav-items{
+    font-size: 20px;
+    padding-right: 16px;
+}
+.goal-color{
+    color: red;
+}
