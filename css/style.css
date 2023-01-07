@@ -9,16 +9,10 @@
   background-color: rgb(78, 175, 224);
   padding: 60px;
   color: beige;
-  margin-right: 200px;
-  margin-left: 200px;
-}
-nav ul {
-  display: flex;
 }
 nav li {
   list-style: none;
-  padding: 5px;
-  margin-right: 120px;
+  padding: 20px;
 }
 .nav-title {
   font-size: 50px;
@@ -26,37 +20,64 @@ nav li {
 }
 .nav-items {
   font-size: 25px;
+  display: flex;
 }
 .goal-color {
   color: red;
 }
 
 /* banner section styles */
-.banner{
-    background: url(../images/banner/banner.png);
-    height: 100vh;
-    text-align: right;
-    padding-top: 210px;
-    padding-right: 180px;
-    background-repeat: no-repeat;
-    min-width: 100% 100%;
-    margin-left: 200px;
-    margin-right: 200px;
+.banner {
+  background: url(../images/banner/banner.png);
+  height: 100vh;
+  text-align: right;
+  padding-top: 230px;
+  padding-right: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.banner-title{
-    font-size: 60px;
-    font-weight: 700;
+.banner-title {
+  font-size: 60px;
+  font-weight: 700;
 }
-.banner-text{
-    font-size: 18px;
-    margin-top: 25px;
+.banner-text {
+  font-size: 18px;
+  margin-top: 25px;
 }
-.btn-primary{
-    margin-top: 40px;
-    background-color: orangered;
-    color: white;
-    padding: 20px 30px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
+.btn-primary {
+  margin-top: 40px;
+  background-color: orangered;
+  color: white;
+  padding: 20px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
 }
+/* failures section styles */
+.failures {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  height: 100vh;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.person {
+  height: 550px;
+  width: 450px;
+}
+.failures-title {
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.failures-text {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.failures-list {
+  font-size: 20px;
+  padding-left: 25px;
+}
+/* plans section styles */
