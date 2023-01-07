@@ -53,6 +53,7 @@ nav li {
   border: none;
   border-radius: 5px;
 }
+
 /* failures section styles */
 .failures {
   display: flex;
@@ -62,7 +63,6 @@ nav li {
   width: 1200px;
   margin: 0 auto;
 }
-
 .person {
   height: 450px;
   width: 380px;
@@ -80,6 +80,7 @@ nav li {
   font-size: 16px;
   padding-left: 20px;
 }
+
 /* plans section styles */
 .plans {
   height: 100vh;
@@ -112,8 +113,8 @@ nav li {
   padding-top: 10px;
   margin-bottom: 120px;
 }
-/* advice and gradient style */
 
+/* advice and gradient style */
 .advice {
   background: url(../images/watch.png),
     linear-gradient(80deg, #f6641af3 0%, rgba(118, 108, 104, 0) 100%);
@@ -122,7 +123,6 @@ nav li {
   border-radius: 10px;
   margin-left: 140px;
 }
-
 .advice h1 {
   font-size: 30px;
   font-size: 50px;
@@ -140,6 +140,7 @@ nav li {
   margin-left: 15px;
   margin-bottom: 15px;
 }
+
 /* footer styles */
 .footer {
   display: flex;
