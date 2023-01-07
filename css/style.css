@@ -116,7 +116,7 @@ nav li {
 
 .advice {
   background: url(../images/watch.png),
-    linear-gradient(70deg, #ea7236 0%, rgba(118, 108, 104, 0) 100%);
+    linear-gradient(80deg, #f6641af3 0%, rgba(118, 108, 104, 0) 100%);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   border-radius: 10px;
