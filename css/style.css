@@ -146,7 +146,7 @@ nav li {
   justify-content: space-around;
   background-color: black;
   color: aliceblue;
-  padding: 50px;
+  padding: 100px;
 }
 .footer-title {
   font-size: 45px;
@@ -166,8 +166,8 @@ nav li {
 }
 .footer-sub-title {
   font-size: 25px;
-  margin-top: 30px;
-  margin-bottom: 25px;
+  margin: 30px 25px;
+  margin-left: 13px;
 }
 input {
   font-size: 18px;
@@ -177,4 +177,5 @@ input {
   padding: 15px 25px;
   border-radius: 10px;
   margin-bottom: 10px;
+  margin-left: 13px;
 }
