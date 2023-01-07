@@ -151,6 +151,7 @@ nav li {
 .footer-title {
   font-size: 45px;
   font-weight: 700;
+  padding-bottom: 15px;
 }
 .footer-text {
   font-size: 18px;
@@ -166,7 +167,7 @@ nav li {
 }
 .footer-sub-title {
   font-size: 25px;
-  margin: 30px 25px;
+  margin: 20px 25px;
   margin-left: 13px;
 }
 input {
