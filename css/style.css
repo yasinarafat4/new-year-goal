@@ -81,3 +81,59 @@ nav li {
   padding-left: 25px;
 }
 /* plans section styles */
+.plans {
+  height: 100vh;
+}
+.plans-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 100px;
+}
+.plans-items {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 200px;
+  padding-top: 80px;
+  padding-left: 250px;
+}
+.plans-items img {
+  padding-bottom: 10px;
+}
+.plans-items h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.plans-items p {
+  font-size: 20px;
+  color: rgba(37, 38, 38, 0.686);
+  padding-top: 10px;
+  margin-bottom: 120px;
+}
+/* advice and gradient style */
+.advice {
+  background: url(../images/watch.png),
+    linear-gradient(rgb(218, 48, 48), rgba(194, 181, 181, 0.83));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  width: 1060px;
+  padding: 40px 40px;
+  border-radius: 10px;
+  margin-left: 280px;
+}
+.advice h1 {
+  font-size: 30px;
+  font-size: 50px;
+  color: aliceblue;
+}
+.btn-secondary {
+  margin-top: 40px;
+  background-color: rgb(240, 232, 229);
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(245, 84, 15);
+  border: none;
+  border-radius: 5px;
+}
